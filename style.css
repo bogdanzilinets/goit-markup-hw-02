@@ -1,0 +1,61 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+span {
+    color: #2196F3;
+}
+
+/* header */
+
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31/26);
+    letter-spacing: 0.03em;
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.menu-general {
+list-style: none;
+}
+
+.menu-list:hover,
+.menu-list:focus {
+    color: #2196F3;
+}
+
+
+.mail {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+
+.mail:hover {
+color: #2196F3;
+}
+
+.telephone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.telephone:hover {
+    color: #2196F3;
+}
