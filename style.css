@@ -1,5 +1,5 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto";
 }
 span {
   color: #2196f3;
@@ -7,7 +7,9 @@ span {
 
 /* header */
 
-.logo {
+.logo-first {
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
@@ -17,10 +19,13 @@ span {
 }
 
 .menu-list {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
+
   color: #212121;
   text-decoration: none;
 }
@@ -34,40 +39,48 @@ span {
   color: #2196f3;
 }
 
-.mail {
+.mail-header {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
+  text-decoration: none;
   letter-spacing: 0.02em;
 
   color: #757575;
 }
 
-.mail:hover {
+.mail-header:hover {
   color: #2196f3;
 }
 
-.telephone {
+.telephone-header {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
+  text-decoration: none;
   letter-spacing: 0.02em;
   color: #757575;
 }
 
-.telephone:hover {
+.telephone-header:hover {
   color: #2196f3;
 }
 /* header */
 
 .main {
-  background-color: #2f303a;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  background-color: #2f303a;
   color: #ffffff;
 }
 
@@ -76,12 +89,16 @@ span {
   background-color: #2196f3;
 }
 
+.text {
+  list-style: none;
+}
 .title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  list-style: none;
   color: #212121;
 }
 
@@ -90,6 +107,7 @@ span {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
+  list-style: none;
   color: #757575;
 }
 
@@ -101,6 +119,7 @@ span {
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
+
   color: #212121;
 }
 
@@ -152,24 +171,27 @@ span {
   color: #2196f3;
 }
 
-.logo {
+.logo-second {
+  background-color: #2f303a;
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .mail {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
   text-decoration: none;
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .mail:hover {
@@ -179,12 +201,12 @@ span {
 .telephone {
   font-family: "Roboto";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.02em;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
   text-decoration: none;
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .telephone:hover {
@@ -196,21 +218,28 @@ span {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: calc(24 / 14);
+  line-height: 24px;
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
+}
+
+.geo:hover {
+  color: #2196f3;
 }
 /* footer */
 
 /* portfolio */
 
-.button-five {
-  position: absolute;
-  width: 125px;
-  height: 38px;
-  left: 593px;
-  top: 174px;
+.logo-first {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-decoration: none;
 }
 
 .name-btn {
@@ -235,10 +264,13 @@ span {
 }
 
 .img-title {
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
+
   color: #212121;
 }
 
