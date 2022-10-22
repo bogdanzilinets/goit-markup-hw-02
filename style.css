@@ -258,6 +258,10 @@ span {
   color: #757575;
 }
 
+.mail-portfolio:hover {
+  color: #2196f3;
+}
+
 .telephone-portfolio {
   font-family: "Roboto";
   font-style: normal;
@@ -270,8 +274,7 @@ span {
   color: #757575;
 }
 
-.telephone-portfolio:hover,
-.mail-portfolio:hover {
+.telephone-portfolio:hover {
   color: #2196f3;
 }
 
