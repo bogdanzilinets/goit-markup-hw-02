@@ -230,6 +230,50 @@ span {
 /* footer */
 
 /* portfolio */
+.menu-list-port {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #212121;
+}
+
+.menu-list-port:hover,
+.menu-list-port:focus {
+  color: #2196f3;
+}
+
+.mail-portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.telephone-portfolio {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.telephone-portfolio:hover,
+.mail-portfolio:hover {
+  color: #2196f3;
+}
 
 .logo-first {
   font-family: "Raleway";
